@@ -15,4 +15,5 @@ Main Header has Carasouel using Bootstrap for different countries with which the
 <img src="ScreenShot/2.png" width="800px">
 
 Responsive- Moblie View
-<img src="ScreenShot/3.png" height="700px">
+<br/>
+<img src="ScreenShot/3.png" height="500px">
