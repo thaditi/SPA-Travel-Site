@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.lady {
+  z-index: 100;
+  position: relative;
+  height: 70vh;
+  transform: translateY(230px) translateX(300px);
+}
+.carousel-item {
+  height: 100vh;
+  position: absolute;
+}
+.heading {
+  color: white;
+  position: absolute;
+  font-family: "Krona One", sans-serif;
+  font-size: 8em;
+  transform: translateY(200px) translateX(480px);
+  font-weight: bold;
+  text-shadow: 0 0 10px #fff;
+}
+
+.hh1 {
+  transform: translateY(200px) translateX(500px);
+}
+
+.hh2 {
+  transform: translateY(200px) translateX(330px);
+}
+.hh3 {
+  transform: translateY(200px) translateX(500px);
+}
+.button {
+  position: absolute !important;
+  top: 60% !important;
+  left: 44% !important;
+  padding: 15px 50px !important;
+  background: transparent !important;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.2rem;
+  border: 2px solid white !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: 0.3s;
+  z-index: 500 !important;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+nav {
+  background: transparent !important;
+}
+.navbar {
+  bottom: 2%;
+  left: 2%;
+  background: transparent !important;
+  font-size: 20px;
+  text-transform: capitalize;
+  position: absolute !important;
+  z-index: 500 !important;
+}
+.navbar a {
+  background: transparent !important;
+  color: rgb(255, 255, 255) !important;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.navbar a.active {
+  text-decoration: underline;
+}
+
+.moreInfo {
+  background: #1d1c1c;
+  height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 55em !important;
+}
+.head {
+  text-align: center;
+}
+.mainHead,
+.card-title {
+  color: #c4c1c1;
+  font-family: "Poppins", sans-serif;
+}
+.mainHead {
+  font-size: 3em;
+}
+.subHead {
+  padding-bottom: 10px;
+  font-size: 1.2em;
+}
+.card-title {
+  font-weight: bold;
+}
+.subHead,
+.card-text,
+.bn {
+  color: rgb(146, 143, 143);
+  font-family: "Poppins", sans-serif;
+}
+.row {
+  margin-top: 50px;
+  padding: 10px 70px;
+}
+.card-img-top {
+  height: 250px;
+  width: 50px;
+  -webkit-box-shadow: 0px -7px 20px 12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -7px 20px 12px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -7px 20px 12px rgba(0, 0, 0, 0.75);
+}
+a.bn {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+a.bn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  background-color: #1d1c1c !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#pro-card {
+  margin-left: 150px;
+  align-items: center;
+  text-align: center;
+  width: 80% !important;
+  background-color: #2b2929 !important;
+  box-shadow: inset 0px -2px 15px 8px rgba(97, 88, 88, 0.75);
+  box-shadow: 0px -2px 15px 8px rgba(97, 88, 88, 0.75);
+  border-radius: 0;
+  border-color: white !important;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 15px 17px;
+  padding-bottom: 0%;
+  color: white !important;
+
+  font-family: "Poppins", sans-serif;
+}
+form .form-control {
+  background: transparent;
+  border-radius: 0;
+  border-color: white;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 8px 17px !important;
+  margin-bottom: 20px;
+  color: white !important;
+}
+form .form-control::placeholder {
+  color: #c4c1c1;
+}
+form .btn {
+  color: #c4c1c1;
+  border: 2px solid #c4c1c1;
+  padding: 10px 50px;
+  margin-bottom: 20px;
+}
+form .btn:hover {
+  color: #fff;
+  background-color: rgba(235, 230, 230, 0.699);
+}
+
+footer {
+  padding-top: 0;
+  height: 50px;
+  background-color: #1d1c1c !important;
+}
+footer p {
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #c4c1c1;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .lady {
+    height: 25vh;
+    transform: translateY(45px) translateX(55px);
+  }
+  .carousel-item {
+    width: 100vw;
+    height: 210px;
+  }
+  .heading {
+    font-size: 2.5em;
+    transform: translateX(80px) translateY(90px);
+  }
+  .hh1 {
+    transform: translateX(110px) translateY(40px);
+  }
+  .hh2 {
+    transform: translateX(55px) translateY(40px);
+  }
+  .hh3 {
+    transform: translateX(120px) translateY(38px);
+  }
+  .button {
+    font-size: 0.5em !important;
+    top: 20% !important;
+    left: 40% !important;
+    padding: 8px 20px !important;
+  }
+
+  .moreInfo {
+    background: #1d1c1c !important;
+    margin: 0;
+    padding-bottom: 130em !important;
+  }
+  .row {
+    background: #1d1c1c !important;
+  }
+  .mainHead {
+    font-size: 2em;
+  }
+  .subHead {
+    font-size: 1em;
+  }
+  .card-text {
+    font-size: 0.8em;
+  }
+  a.bn {
+    font-size: 1em;
+  }
+  .contact {
+    width: 100vw !important;
+    height: 250px !important;
+    background-color: #1d1c1c !important;
+    padding-bottom: 30em !important;
+    padding-top: 0;
+  }
+  #pro-card {
+    margin-left: 40px;
+  }
+  footer {
+    background-color: #1d1c1c !important;
+  }
+}
